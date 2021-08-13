@@ -1,0 +1,29 @@
+{
+    "data": {
+        "openBox": {
+            "box": {
+                "id": "Qm94OjczOQ",
+                "name": "Xmas box",
+                "levelRequired": 1,
+                "maxPurchasesDaily": 5,
+                "free": true,
+                "purchasable": true,
+                "openable": true,
+                "iconUrl": "https://static.ancientgaming.io/images/madness.png",
+                "price": 62.02,
+                "__typename": "Box"
+            },
+            "boxOpenings": [
+                {
+                    "id": "Qm94T3BlbmluZzo0ODMzNDcx",
+                    "boxValue": 0,
+                    "itemValue": 50.68,
+                    "profit": -50.68,
+                    "currency": "TKN",
+                    "__typename": "BoxOpening"
+                }
+            ],
+            "__typename": "CreateBoxOpeningPayload"
+        }
+    }
+}

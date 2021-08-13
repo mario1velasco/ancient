@@ -1,3 +1,9 @@
+# Important information
+
+I had to mock the open box response because in my steam account I am level 1. I just can open Xmas box once (I have to wait 24h) and I could copy the response. It is my first time that I use GraphQL.
+
+# Important information
+
 # Ancient
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.

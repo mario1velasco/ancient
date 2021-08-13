@@ -1,0 +1,29 @@
+<h1 mat-dialog-title>The box has been opened !!!</h1>
+<div mat-dialog-content>
+    <img
+        mat-card-avatar
+        class="responsive"
+        src="{{ openBox.box.iconUrl }}"
+        alt="Shiba Inu"
+    />
+
+    <h3>{{ openBox.box.name }} information:</h3>
+    <p>
+        Box Value:
+        {{ openBox.boxOpenings[0].boxValue }}
+        {{ openBox.boxOpenings[0].currency }}
+    </p>
+    <p>
+        Item Value:
+        {{ openBox.boxOpenings[0].itemValue }}
+        {{ openBox.boxOpenings[0].currency }}
+    </p>
+    <p>
+        Profit:
+        {{ openBox.boxOpenings[0].profit }}
+        {{ openBox.boxOpenings[0].currency }}
+    </p>
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button color="primary" (click)="onNoClick()">OK</button>
+</div>

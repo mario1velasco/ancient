@@ -1,0 +1,20 @@
+{
+    "box": {
+        "free": true,
+        "iconUrl": "https://static.hypedrop.com/images/u2.png",
+        "id": "Qm94OjcyOA",
+        "levelRequired": 110,
+        "maxPurchasesDaily": 1,
+        "name": "Level 110",
+        "openable": true,
+        "price": 331.72,
+        "purchasable": true
+    },
+    "boxOpenings": {
+        "id": "PrDE54Fdfdf",
+        "boxValue": 23,
+        "currency": "€",
+        "itemValue": 254,
+        "profit": 231
+    }
+}
